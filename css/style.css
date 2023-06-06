@@ -17,6 +17,10 @@
 img{
     width: 100%;
 }
+
+.my-font-size{
+    font-size: 0.7em;
+}
 /* HEADER  */
 
 #my-header{
@@ -39,8 +43,26 @@ img{
     width: 100%;
     height: 35px;
     position:relative;
-    border-radius: 5px;
-    
+    border-radius: 5px;  
+}
+
+/* HEADER DEL MAIN  */
+
+.my-border{
+    background-color: #285BB4;
+    border-radius: 15px;
+    padding: 4px;
+}
+.my-border-rounded{
+    background-color: #285BB4;
+    border-radius: 50%;
+    padding: 4px 7px;
+}
+
+.my-border-plus{
+    border-radius: 30%;
+    padding: 0 7px;
+    border: 1px solid white;
 }
  /* ASIDE  */
  section aside nav ul li a {
