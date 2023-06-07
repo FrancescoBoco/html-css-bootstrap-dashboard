@@ -102,10 +102,11 @@ section aside nav ul li:hover > a{
     
         opacity: 0.5;
       
-
-
 }
 
+main section ul li div:hover > i {
+    opacity: 0.5;
+}
  /* DEBUG */
 
  
