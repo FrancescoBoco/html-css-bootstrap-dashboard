@@ -11,6 +11,7 @@
     background-color: #0C1E32;
 }
 
+
 /* GENERALS */
 
 
@@ -20,6 +21,18 @@ img{
 
 .my-font-size{
     font-size: 0.7em;
+}
+
+.my-p-10{
+    padding-right:10px ;
+}
+
+.my-p-25{
+    padding-right:25px ;
+}
+
+.my-p-20{
+    padding-right:20px ;
 }
 /* HEADER  */
 
@@ -59,6 +72,7 @@ img{
     padding: 4px 7px;
 }
 
+
 .my-border-plus{
     border-radius: 30%;
     padding: 0 7px;
@@ -75,12 +89,20 @@ aside{
     background-image: url(../img/sidebar-bg.png);
 }
 
+/* MAIN  */
 
+.my-border-icon{
+    border-radius: 5px;
+    padding: 6px;
+    border: 1px solid #828282;
+}
 /* HOVER  */
 section aside nav ul li:hover > a{
     
         opacity: 0.5;
       
+
+
 }
 
  /* DEBUG */
